@@ -13,3 +13,10 @@ List Module Info: modinfo brook.ko
 DebugFS Example
 Dynamicly change the variable via debugfs
 Need to mount debugfs
+
+## Example4
+Sysctl Example
+Rgister sysctl_table and it becomes a subdir of /proc/sys
+Can read/write value via /proc/sys
+After kernel 2.6.33, sysctl is only the wrapper of procfs.
+It cannot viist from syscall anymore.
