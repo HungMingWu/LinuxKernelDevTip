@@ -16,7 +16,12 @@ Need to mount debugfs
 
 ## Example4
 Sysctl Example
-Rgister sysctl_table and it becomes a subdir of /proc/sys
+Register sysctl_table and it becomes a subdir of /proc/sys
 Can read/write value via /proc/sys
 After kernel 2.6.33, sysctl is only the wrapper of procfs.
 It cannot viist from syscall anymore.
+
+## Example5
+Syscall Example
+Register a misc device, communicate between user space and kernel space.
+Implement file_operation, mmap, ioctl
