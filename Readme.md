@@ -35,3 +35,9 @@ Syscall Example
 Register a misc device, communicate between user space and kernel space.
 
 Implement file_operation, mmap, ioctl
+
+## Example6
+ProcFS Example(Without seq_file)
+
+## Example7
+ProcFS Example(With seq_file example)
